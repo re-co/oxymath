@@ -8,6 +8,10 @@ Description: Easy Peasy Calculations inside Oxygen Builder
 Version: 1.0.0
 */
 
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
 
 add_action('plugins_loaded', 'oxymath_elements_init');
 
